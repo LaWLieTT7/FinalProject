@@ -674,3 +674,28 @@ height: 29px;
 background: #FFFFFF;
 box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15), 0px 3px 1px rgba(0, 0, 0, 0.06);
 }
+.rosario-p2{
+	font-family: 'roboto', sans-serif;
+font-weight: bold;
+font-size: 18px;
+line-height: 129.8%;
+color: #2D2828;
+margin-top: 17%;
+display: flex;
+flex-wrap: wrap;
+height: 5%;
+}
+.just-now2{
+	font-family: 'roboto', sans-serif;
+	font-weight: 10;
+font-size: 18px;
+line-height: 149.8%;
+color: rgba(45, 40, 40, 0.7);
+}
+.idk4-div2{
+	display: flex;
+	flex-wrap: wrap;
+	width: 20%;
+	justify-content: space-between;
+	margin-left: 4%;
+}
