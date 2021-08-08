@@ -5,6 +5,7 @@ body{
 header{
 		height: 26%;
 		background-image: url(../img/background1.png);
+		background-size: 100%;
 		width: 100%;
 		display: flex;
 
@@ -12,6 +13,7 @@ header{
 main{
 	height: 58.2%;
 	background-image: url(../img/background2.png);
+	background-size: 100%;
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -22,6 +24,7 @@ footer{
 	height: 15.8%;
 	display: flex;
 	background-image: url(../img/background33.jpg);
+	background-size: 100%;
 	justify-content: space-between;
 	padding-top: 6%;
 }
@@ -719,4 +722,8 @@ li:hover{
 .button-div:hover{
 	background-color: darkred;
 	transition: 0.5s;
+}
+@media only screen and (max-width 600px){
+header li a{
+	font-size: 50px;
 }
